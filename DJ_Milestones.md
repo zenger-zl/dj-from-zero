@@ -45,7 +45,7 @@
 - 依次评估并排除 8+ 方案：iPad + djay Pro（FLX4 不兼容）、Mac Mini（无电池）、ThinkBook i7（卖家在 2 小时车程外）、Lenovo V330 / Dell Latitude（8 代架构散热差）、ThinkPad E15（卖家无回应）、MBP i9（散热风险高）、MBA M1 128GB（无风扇 + 存储不足）
 
 ## 2026-04-23 · 演出电脑确定
-- MacBook Pro 13" M1 8GB 512GB 二手下单（€434.95）——低发热、有风扇、续航 4–5h（@美国亚马逊）
+- MacBook Pro 13" M1 8GB 512GB 二手下单（$434.95 ≈ €371.01）——低发热、有风扇、续航 4–5h（@美国亚马逊）
 
 ## 2026-04-25 · DJ_Pool 首次使用 + 户外系统收尾
 - 首次从 YouTube 下载歌曲，成功导入 Rekordbox Playlist
@@ -54,8 +54,8 @@
   - JBL PartyBox OTG 二手（€125.00）
   - SBAOH T101 移动电源（€80.85）
   - RCA 转 3.5mm 连接线（€4.88）
-  - MacBook Pro 13" M1 8GB 512GB 二手（€434.95）
-  - **合计（€995.58）**
+  - MacBook Pro 13" M1 8GB 512GB 二手（$434.95 ≈ €371.01）
+  - **合计（€931.64）**
 
 ---
 

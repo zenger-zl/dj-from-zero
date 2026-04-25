@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>1st_Song.wav — Energy Structure</title>
+<style>
+  body { font-family: monospace; background: #111; color: #eee; padding: 24px; }
+  h2 { color: #fff; margin-bottom: 4px; }
+  .subtitle { color: #888; font-size: 13px; margin-bottom: 24px; }
+  .row { display: flex; align-items: center; margin: 3px 0; }
+  .time { width: 44px; color: #aaa; font-size: 13px; }
+  .bar-bg { width: 400px; background: #222; height: 18px; border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+  .label { margin-left: 10px; font-size: 12px; color: #888; }
+  .section-label { margin-left: 6px; font-size: 12px; font-weight: bold; padding: 2px 6px; border-radius: 3px; }
+  .intro  { background: #2a4a6a; color: #7ac; }
+  .break  { background: #3a2a1a; color: #c94; }
+  .build  { background: #2a3a1a; color: #9c4; }
+  .drop   { background: #4a1a1a; color: #f55; }
+  .outro  { background: #1a2a3a; color: #79b; }
+</style>
+</head>
+<body>
+<h2>1st_Song.wav — Energy Structure</h2>
+<div class="subtitle">BPM: 125 &nbsp;|&nbsp; Duration: 1:37 &nbsp;|&nbsp; Phrase = every ~8s (16 beats)</div>
+
+<script>
+const data = [
+  { t:"0:00", e:0.37, section:"INTRO 开头" },
+  { t:"0:04", e:0.40, section:"INTRO 开头" },
+  { t:"0:08", e:0.43, section:"INTRO 开头" },
+  { t:"0:12", e:0.43, section:"INTRO 开头" },
+  { t:"0:16", e:0.13, section:"BREAK 断点" },
+  { t:"0:20", e:0.10, section:"BREAK 断点" },
+  { t:"0:24", e:0.10, section:"BREAK 断点" },
+  { t:"0:28", e:0.13, section:"BREAK 断点" },
+  { t:"0:32", e:0.33, section:"BUILD 堆积" },
+  { t:"0:36", e:0.30, section:"BUILD 堆积" },
+  { t:"0:40", e:0.23, section:"BUILD 堆积" },
+  { t:"0:44", e:0.30, section:"BUILD 堆积" },
+  { t:"0:48", e:0.47, section:"DROP 高潮 ★" },
+  { t:"0:52", e:0.47, section:"DROP 高潮 ★" },
+  { t:"0:56", e:0.47, section:"DROP 高潮 ★" },
+  { t:"1:00", e:0.43, section:"DROP 高潮 ★" },
+  { t:"1:04", e:0.47, section:"DROP 高潮 ★" },
+  { t:"1:08", e:0.47, section:"DROP 高潮 ★" },
+  { t:"1:12", e:0.43, section:"DROP 高潮 ★" },
+  { t:"1:16", e:0.33, section:"OUTRO 结尾" },
+  { t:"1:20", e:0.27, section:"OUTRO 结尾" },
+  { t:"1:24", e:0.17, section:"OUTRO 结尾" },
+  { t:"1:28", e:0.13, section:"OUTRO 结尾" },
+  { t:"1:32", e:0.13, section:"OUTRO 结尾" },
+  { t:"1:36", e:0.00, section:"END" },
+];
+
+const colorMap = {
+  "INTRO 开头":  { fill:"#3a7abd", label:"intro" },
+  "BREAK 断点":  { fill:"#c47a20", label:"break" },
+  "BUILD 堆积":  { fill:"#6ab030", label:"build" },
+  "DROP 高潮 ★": { fill:"#e03030", label:"drop"  },
+  "OUTRO 结尾":  { fill:"#3a7a9a", label:"outro" },
+  "END":         { fill:"#333",    label:"outro" },
+};
+
+const container = document.body;
+data.forEach(d => {
+  const c = colorMap[d.section] || { fill:"#555", label:"" };
+  const row = document.createElement("div");
+  row.className = "row";
+  row.innerHTML = `
+    <div class="time">${d.t}</div>
+    <div class="bar-bg">
+      <div class="bar-fill" style="width:${d.e*100*4}px; background:${c.fill}"></div>
+    </div>
+    <span class="section-label ${c.label}">${d.section}</span>
+  `;
+  container.appendChild(row);
+});
+</script>
+</body>
+</html>

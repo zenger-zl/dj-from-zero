@@ -13,6 +13,25 @@ If you're interested in any part of this, feel free to open an Issue — happy t
 
 ---
 
+## 文件结构 · File Structure
+
+```
+DJ_cowork_project/
+├── README.md                        ← 本文件，项目总览
+├── DJ_Milestones.md                 ← 学习进度时间轴（持续更新）
+└── Doc/
+    ├── DJ_learning_notes.md         ← Beat Grid、歌曲结构、四大核心技能
+    ├── DJ_controller_notes.md       ← 控制器横向对比 + Rekordbox 分析设置
+    ├── DJ_livestream_setup.md       ← 直播系统搭建文档（英文）
+    ├── DJ_livestream_setup_CN.md    ← 直播系统搭建文档（中文）
+    ├── DJ_outdoor_equipment_compare.md  ← 户外设备对比与选型
+    ├── DJ_controller_compare_graph.png  ← 控制器对比图
+    ├── energy_map.html                  ← 1st_Song.wav 能量结构图
+    └── waveform_structure.html          ← 1st_Song.wav Waveform 结构图
+```
+
+---
+
 ## 硬件演进 · Hardware Timeline
 
 ```
@@ -85,23 +104,6 @@ FLX4 硬件输出
 
 ---
 
-## 文件结构 · File Structure
-
-```
-DJ_cowork_project/
-├── README.md                        ← 本文件，项目总览
-├── DJ_Milestones.md                 ← 学习进度时间轴（持续更新）
-└── Doc/
-    ├── DJ_learning_notes.md         ← Beat Grid、歌曲结构、四大核心技能
-    ├── DJ_controller_notes.md       ← 控制器横向对比 + Rekordbox 分析设置
-    ├── DJ_livestream_setup.md       ← 直播系统搭建文档（英文）
-    ├── DJ_livestream_setup_CN.md    ← 直播系统搭建文档（中文）
-    ├── DJ_outdoor_equipment_compare.md  ← 户外设备对比与选型
-    └── DJ_controller_compare_graph.png  ← 控制器对比图
-```
-
----
-
 ## 关键决策记录 · Key Decisions
 
 | 决策 | 结论 | 原因 |
@@ -119,10 +121,10 @@ DJ_cowork_project/
 |------|------|
 | Pioneer DDJ-FLX4 | €349.90 |
 | JBL PartyBox OTG（二手） | €125.00 |
-| MacBook Pro 13" M1 | €434.95 |
+| MacBook Pro 13" M1 | $434.95（≈€371.01）|
 | SBAOH T101 移动电源 | €80.85 |
 | RCA 转 3.5mm 连接线 | €4.88 |
-| **合计** | **€995.58** |
+| **合计** | **€931.64** |
 
 ---
 

@@ -131,6 +131,35 @@ All four are fully practicable on the Party Mix.
 - Quarter turn / half turn = muscle memory for pitch correction
 - Practice method: load the same track on both decks, deliberately offset the beat, correct using only your ears and jog wheel — no Sync
 
+#### How Master Output and Headphones Work Together
+
+The crossfader controls what the audience hears through the Master Output:
+
+```
+Crossfader full left  → Master outputs Deck 1 only
+Crossfader full right → Master outputs Deck 2 only
+Crossfader center     → Master outputs both
+```
+
+In a real mix, the audience hears Master Output through the speakers. You never want Deck 2 bleeding into Master while the audience is still listening to Deck 1 — that's two songs clashing in public.
+
+Headphones run on the Cue Output, which is independent of Master. This lets you privately monitor Deck 2 while the audience hears Deck 1 only:
+
+```
+Audience hears:  Deck 1 only  (Master)
+You hear:        Deck 1 (left ear) + Deck 2 (right ear)  (Cue Mix)
+```
+
+The **Cue Mix knob** on the Party Mix controls this ratio — turn toward CUE to focus on the incoming track, turn toward PGM to hear the Master.
+
+#### Correct Practice Workflow
+1. Push crossfader fully left — Deck 1 plays to Master
+2. Press the PFL/Cue button on Deck 2
+3. Put on headphones, adjust the Cue Mix knob
+4. Listen to both tracks in your headphones simultaneously
+5. Use the jog wheel to align the beats
+6. Once aligned, push the crossfader across to mix in
+
 ### Stage 3 — EQ Swap
 - Cut the Low EQ on the incoming track → bring up the fader → gradually swap the bass between tracks
 - After every transition: **reset all EQs to the 12 o'clock position** — make this a habit

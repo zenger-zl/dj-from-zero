@@ -47,8 +47,9 @@
 ## 2026-04-23 · 演出电脑确定
 - MacBook Pro 13" M1 8GB 512GB 二手下单（$434.95 ≈ €371.01）——低发热、有风扇、续航 4–5h（@美国亚马逊）
 
-## 2026-04-25 · DJ_Pool 首次使用 + 户外系统收尾
+## 2026-04-25 · DJ_Pool 首次使用 + 户外系统收尾 + 练习 Stage 1 & 2
 - 首次从 YouTube 下载歌曲，成功导入 Rekordbox Playlist
+- 完成 Stage 1（耳朵训练）和 Stage 2（Jog Wheel）初次练习——理解了 Master Output / Cue Output 信号分离逻辑，掌握了耳机监听 + Crossfader 混入的正确工作流
 - 户外演出设备总投入确认（€995.58）：
   - Pioneer DDJ-FLX4（€349.90）
   - JBL PartyBox OTG 二手（€125.00）
